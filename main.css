@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+ 
+ body {
+   font-family: 'Varela', sans-serif;
+   height: 100vh;
+   background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .wrapper {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none; 
+}
+.btn {
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-style: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.show-btn {
+  background: #474b4f;
+  padding: 8px 12px;
+  border: 8px;
+  transition: background .5s;
+}
+.show-btn:hover {
+  background-color: #3a3d40;
+}
+.modal {
+  position: fixed;
+  max-width: 600px;
+  width: 100%;
+  background: #f4f4f4f4;
+  padding: 15px;
+  border-radius: 15px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.clous-btn {
+  color: #222;
+  font-size: 24px;
+}
+.mdal-title {
+  margin-bottom: 15px;
+}
+.ovarlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(5px);
+}  */
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #FFF;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 300px;
+}
+
+
+#fname, #country {
+  width: 300px;
+  height: 40px;
+  padding: 20px;
+  background:rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  border: none;
+  border-radius: 16px;
+}
+#myBtn {
+  width: 100px;
+  height: 40px;
+  background:rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  border: none;
+  border-radius: 16px;
+  transition: all 1s;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background:rgba(38, 37, 37, 0.5);
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
