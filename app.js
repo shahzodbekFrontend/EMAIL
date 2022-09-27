@@ -64,7 +64,7 @@ document.getElementById("myBtn").addEventListener("click", function (e) {
   oReq.open("GET", url, true);
   oReq.send();
 
-  alert("Message sent");
+  alert("YEB QOYDINGIZMI DEYMANDA 😎😎😎");
 }); 
 
 
